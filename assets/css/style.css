@@ -126,10 +126,7 @@ button {
 	color: white;
 	padding: 10px 30px;
 }
-td {
-	width: 250px;
-	padding: 0;
-}
+
 /* .row1 {
 	height: 30px;
 	padding: 0;
@@ -138,7 +135,7 @@ td {
 	position: relative;
 	width: 100%;
 } */
-.img_text {
+/*.img_text {
 	position: relative;
 	top: -50px;
 	left: 0;
@@ -156,57 +153,244 @@ td {
 	color: white;
 	padding: 7px;
 	height: 26px;
+}*/
+.work {
+	width: 200px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 10px 25px;
 }
-@media screen and (max-width: 768px)
-{
-	.head {
-           padding-left: 0;
-           margin-left: 5px;
-           width: 100%;
-	}
-	.wrapper {
-		margin: 0;
-		width: 100%;
-	}
-	header {
-		margin-left: 10px;
-	}
-	aside {
-		clear: both;
-		width: 450px;
-		margin-left: 100px;
-	}
-	nav {
-		margin-left: 120px;
-		
-	}
-	.div {
-		width: 768px;
-	}
+/*.work:nth-child(even) {
+	margin-right: 40px;
+}*/
+.work img {
+	width: 200px;
+	height: 200px;
+	border: 0 none;
+	opacity: .8;
+}
+.work h3 {
+	border-bottom: 0;
+	background: #4aaaa5;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	padding: 15px;
+	width: 155px;
+	bottom: 20px;
+	line-height: 30px;
+	margin-bottom: 0;
+	font-weight: 300;
+}
 
-	
-}
 @media screen and (max-width: 980px)
 {
 	section {
-		width: 200px;
+		width: 220px;
+		margin-left: 100px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	input {
+		width: 210px;
+	}
+	textarea {
+		width: 210px;
 	}
 	header {
 		margin-left: 100px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 	.head {
            padding-left: 0;
-           margin-left: 5px;
-           width: 100%;
+           margin-left: 0;
+           width: 700px;
+           margin-right: 0;
 	}
 	.wrapper {
 		margin: 0;
-		width: 100%;
+		width: 700px;
+		border: 1px black solid;
 	}
 	nav {
-		margin-left: 100px;
+		margin-left: 80px;
 		
+	}
+	.div {
+		/*margin: 0;*/
+		width: 100%;
+	}
+	aside {
+		/*clear: both;*/
+		width: 150px;
+		margin-left: 10px;
+	}
+	.pic {
+		clear: both;
+		width: 220px;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.footer {
+		width: 700px;
+		padding-right: 0;
+		padding-left: 0;
+		/*margin-right: 0;*/
+	}
+	/*body {
+		width: 100%;
+	}*/
+	.clear {
+		width: 210px;
 	}
 	
 
+}
+@media screen and (max-width: 768px)
+{
+	section {
+		width: 440px;
+		margin-left: 20px;
+	}
+	input {
+		width: 430px;
+		/*margin-right: 10px;*/
+	}
+	textarea {
+		width: 430px;
+		/*margin-right: 10px;*/
+	}
+	header {
+		margin-left: 20px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.head {
+           padding-left: 0;
+           margin-left: 0;
+           width: 520px;
+           margin-right: 0;
+	}
+	.wrapper {
+		margin: 0;
+		width: 520px;
+		border: 1px black solid;
+	}
+	nav {
+		margin-left: 70px;
+		
+	}
+	.div {
+		/*margin: 0;*/
+		width: 100%;
+	}
+	aside {
+		clear: both;
+		width: 420px;
+		margin-left: 20px;
+		margin-top: 0;
+	}
+	.pic {
+		clear: both;
+		width: 220px;
+		height: 200px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.footer {
+		width: 520px;
+		padding-right: 0;
+		padding-left: 0;
+		/*margin-right: 0;*/
+	}
+	/*body {
+		width: 100%;
+	}*/
+	.clear {
+		width: 700px;
+	}
+	
+}
+@media screen and (max-width: 640px)
+{
+	section {
+		width: 260px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	input {
+		width: 250px;
+		/*margin-right: 10px;*/
+	}
+	textarea {
+		width: 250px;
+		/*margin-right: 10px;*/
+	}
+	header {
+		margin-left: 0;
+		/*padding-left: 0;
+		padding-right: 0;*/
+		padding: 20px 0;
+		width: 320px;
+	}
+	.head {
+           padding-left: 0;
+           margin-left: 0;
+           width: 320px;
+           margin-right: 0;
+           height: 100px;
+	}
+	.wrapper {
+		margin: 0;
+		width: 320px;
+		border: 1px black solid;
+	}
+	nav {
+		margin-left: 10px;
+		padding-top: 15px;
+		
+	}
+	.div {
+		/*margin: 0;*/
+		width: 100%;
+	}
+	aside {
+		clear: both;
+		width: 240px;
+		margin-left: 10px;
+		margin-top: 0;
+		margin-right: 10px;
+	}
+	.pic {
+		clear: both;
+		width: 220px;
+		height: 200px;
+		margin-right: 0;
+		margin-bottom: 20px;
+		padding-left: 10px;
+	}
+	.footer {
+		width: 320px;
+		padding-right: 0;
+		padding-left: 0;
+		/*margin-right: 0;*/
+	}
+	/*body {
+		width: 100%;
+	}*/
+	.clear {
+		width: 200px;
+	}
+	.about {
+		padding: 0 20px;
+	}
+	.portfolio {
+		padding: 0 20px;
+	}
+	.contact {
+		padding: 0 20px;
+	}
+	
 }
