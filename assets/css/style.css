@@ -192,6 +192,11 @@ button {
 		padding-right: 20px;
 		padding-left: 20px;
 	}
+	body {
+		/*width: 85%;*/
+		margin: 0;
+		background-image: url("../images/concrete_seamless.png");
+	}
 	input {
 		width: 210px;
 	}
@@ -211,8 +216,8 @@ button {
 	}
 	.wrapper {
 		margin: 0;
-		width: 700px;
-		border: 1px black solid;
+		/*width: 100%;*/
+		/*border: 1px black solid;*/
 	}
 	nav {
 		margin-left: 80px;
@@ -220,7 +225,7 @@ button {
 	}
 	.div {
 		/*margin: 0;*/
-		width: 100%;
+		width: 700px;
 	}
 	aside {
 		/*clear: both;*/
@@ -276,7 +281,7 @@ button {
 	.wrapper {
 		margin: 0;
 		width: 520px;
-		border: 1px black solid;
+		/*border: 1px black solid;*/
 	}
 	nav {
 		margin-left: 70px;
@@ -345,7 +350,7 @@ button {
 	.wrapper {
 		margin: 0;
 		width: 320px;
-		border: 1px black solid;
+		/*border: 1px black solid;*/
 	}
 	nav {
 		margin-left: 10px;
